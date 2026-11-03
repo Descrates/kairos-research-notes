@@ -94,6 +94,12 @@ Nothing ships on vibes. A few results:
 
 ---
 
+## 5. In progress: finding the "thinking loop" direction
+
+Sometimes Kairos gets stuck partway through a task, going over the same reasoning again and again until it runs out of budget. Instead of only patching this with prompts or token limits, I'm trying to understand it from the inside. I'm looking for a direction in the model's activations that tracks when it falls into these loops, and I'll test whether removing that direction prevents them **without hurting task quality**. No results yet. It's the newest experiment, and the bar will be the same as everything else here: measured on real tasks, or it doesn't ship.
+
+---
+
 ## What I'd tell myself a month ago
 
 - **Infrastructure fails more than the model does.** Most slowdowns and many tool-call failures came from the plumbing, not the LLM.
@@ -103,4 +109,4 @@ Nothing ships on vibes. A few results:
 
 ## What's next
 
-Version 2 of the draft head (training the chained step), a full move to the grammar-constrained runner, switching Laya on once it beats the baseline, and moving the whole stack to headless Linux.
+The thinking-loop direction (above), version 2 of the draft head (training the chained step), a full move to the grammar-constrained runner, switching Laya on once it beats the baseline, and moving the whole stack to headless Linux.
